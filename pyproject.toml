@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "simple-task-broker"
+version = "0.1.0"
+description = ""
+authors = ["mark47B <windachae47@gmail.com>"]
+readme = "README.md"
+packages = [{include = "simple_task_broker"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pika = "^1.3.2"
+asyncio = "^3.4.3"
+aio-pika = "^9.4.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
